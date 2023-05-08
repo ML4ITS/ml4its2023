@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>ml4its2022</title>
+  <title>ml4its2023</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -94,10 +94,10 @@
     <!-- <div class="hero-container" data-aos="zoom-in" data-aos-delay="100"> -->
     <div class="hero-container">
       <p>2nd International Workshop on</p>
-      <h1 class="mb-4 pb-0"><span>M</span>achine <span>L</span>earning for <span>I</span>rregular <span>T</span>ime <span>S</span>eries (ML4ITS2022)</h1>
+      <h1 class="mb-4 pb-0"><span>M</span>achine <span>L</span>earning for <span>I</span>rregular <span>T</span>ime <span>S</span>eries (ML4ITS2023): Advances in Generative Models, Global Models and Self-Supervised Learning</h1>
 
-      <p class="mb-4 pb-0">hosted by <a href="https://www.icmla-conference.org/icmla22/">ICMLA 2022</a></p>
-      <p class="mb-4 pb-0">Submission guidelines <a href ="https://www.icmla-conference.org/icmla22/howtosubmit.html">HERE</a> </p>
+      <p class="mb-4 pb-0">Co-located with <a href="https://2023.ecmlpkdd.org/">ECML PKDD 2023</a></p>
+      <p class="mb-4 pb-0">Submission guidelines <a href ="https://2023.ecmlpkdd.org/submissions/research-and-ads-tracks/">HERE</a> </p>
       <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a> -->
       <a href="#aboutt" class="about-btn scrollto">About The Event</a>
     </div>
@@ -116,13 +116,25 @@
         </div>
         <div class="row">
             <p style="margin-top:0.1cm;">
-<b>Time series</b> data is ubiquitous. The broad diffusion and adoption of <b>Internet of Things (IoT)</b> and major advances in <b>sensor technology</b> are examples of why such data have become <b>pervasive</b>. These technologies have applications in several domains, such as healthcare, finance, meteorology, and transportation. <b>Deep Neural Networks (DNNs)</b> have recently been used to create models that improve on the state of the art for several of these tasks. </p>
 
-<p>Time series data influences both political and industrial decisions every day, yet there is, surprisingly, limited research in Machine Learning (ML) for time series - especially in situations where data is <b>scarce</b> or of <b>low quality</b>. In many <b>real-world applications</b>, we are often faced with one of the following two scenarios: 1) the amount of available training data is <b>limited</b>, or 2) there is a huge amount of available data which is <b>scarcely or not labeled</b> due to high costs of data collection and annotation. Further challenges include <b>heterogeneity</b> of data (e.g. non-stationarity, multi-resolution, irregular sampling) as well as <b>noise</b>.  We believe there is a need for focusing on modern AI techniques that can extract value in such challenging situations.
+
+<p> Machine Learning and in particular, <b>Deep learning</b> for <b>irregular time series</b> is an essential research area that aims to develop machine learning models capable of effectively handling time series data that is unevenly spaced, irregularly sampled, noisy, has multiresolution characteristics, contains anomalies, or has missing data. The need for research in deep learning for irregular time series is particularly important for real-world applications, where data is often irregularly collected. Time series data is prevalent in fields such as finance, healthcare, and environmental science, and improved analysis and modeling techniques can significantly enhance decision-making, enable accurate predictions, and increase understanding of complex systems. By advancing deep learning for irregular time series, we can make a positive impact on a variety of fields and contribute to the progress and well-being of society.
 </p>
-<p>
-The main scope of this workshop is to facilitate discusion on machine learning for time series, advance the state-of-the-art in time series analysis for <b>irregular</b> time series, and pave way for future directions of research. Here, we define time series to be irregular if they fall under one or several of the following categories:
 
+<p>
+In many real-world applications, time series data is often collected at irregular intervals, making it challenging to model using traditional time series methods. Deep learning models, on the other hand, have shown promising results in handling irregular time series data due to their ability to learn complex temporal patterns from large datasets. The research in this area involves developing novel deep learning models that can effectively model irregular time series data, as well as developing new techniques for pre-processing and cleaning the data. Some specific research topics in this area include 1) <b>Recurrent neural networks (RNNs)</b> and their variants such as long short-term memory (LSTM) networks and gated recurrent units (GRUs) for modeling irregular time series data; 2) <b>Attention mechanisms</b> that can dynamically weigh the importance of different time steps in irregular time series; 3) <b>Novel loss functions</b> that can handle missing data and irregular sampling intervals; 4) Techniques for <b>imputing missing data</b> in irregular time series; 5) <b>Anomaly detection</b>.
+</p>
+
+<p>
+Overall, deep learning for irregular time series has the potential to improve the <b>accuracy</b> and <b>robustness</b> of time series modeling in a variety of fields, including finance, healthcare, and environmental science.
+</p>
+
+<p>
+In many <b>real-world applications</b>, we have the following two scenarios: 1) the <b>amount of available training data is limited</b>, or 2) there is a <b>huge amount of available data</b> which is <b>carcely or not labeled</b> due to <b>high costs</b> of data collection and <b>annotation</b>. As a result, the future of Artificial Intelligence (AI) will be about “doing more with less”. There is a need for focusing on modern AI techniques that can extract value from such challenging datasets. These considerations can also contribute to the increasing need to address <b>sustainability</b> and <b>privacy</b> aspects of ML and AI. Furthermore, there is a need to overcome the issue of limited availability of data and scarcity of labeled data for <b>(multivariate) time series</b> modeling. In this context, <b>heterogeneity</b> of the data (e.g. non-stationarity, multi-resolution, irregular sampling) as well as <b>noise</b>, pose further challenges. 
+</p>
+
+<p>
+The main scope of this workshop is to advance the state-of-the-art in time series analysis for “irregular” time series. We define time series to be <b>“irregular”</b> if they fall under one or several of the following categories: 
 <ul id="list">
               <li> <b>Short</b>: univariate and multivariate time series with a limited amount of data and history,</li>
               <li> <b>Multiresolution</b>: multivariate time series where each signal has a different granularity or resolution in terms of sampling frequency,</li>
@@ -131,26 +143,37 @@ The main scope of this workshop is to facilitate discusion on machine learning f
               <li> <b>Scarcely labeled</b> and <b>unlabeled</b>: univariate/multivariate time series where only a small part of the data is labeled or completely unlabeled.</li>
 </ul>
 </p>
+
 <p>
-This workshop intends to offer the ideal context for dissemination and cross-pollination of novel ideas in designing machine learning models suitable to deal with irregular time series. We specifically call for contributions addressing one (or more) of the irregularity aspects mentioned above. Topics of interest for the workshop include, but are not limited to:
+This workshop follows the successful edition at ECML-PKDD 2021 and intends to offer the ideal context for dissemination and cross-pollination of novel ideas in designing machine learning models suitable to deal with irregular time series.  We specifically call for contributions addressing one (or more) of the irregularity aspects mentioned above (a) - (e). Accordingly, topics of interest for the workshop include, but are not limited to:
 <ul id="list">
-<li>Methods for data imputation and denoising,</li>
-<li>Generative models for synthetic data generation</li>
-<li>Transfer learning and transformer architectures for time series forecasting and classification,</li>
-<li>Attention mechanisms for time series forecasting</li>
-<li>Graph neural networks for anomaly detection and failure prediction,</li>
-<li>Quantification of uncertainty,</li>
-<li>Neural network architectures for time series classification and forecasting,</li>
-<li>Unsupervised and self-supervised learning for different time Series related tasks,</li>
-<li>Representation learning for time series,</li>
-<li>Few-shot learning and time series classification in a low-data regime,</li>
-<li>GANs for time series analysis (i.e. anomaly detection, data imputation, data augmentation, data generation, privacy),</li>
-<li>Physical-informed deep neural networks for time series modeling,</li>
-<li>(Deep) reservoir computing and spiking neural networks for time series and structured data analysis.</li>
-<li>Representation learning for time series.</li>
+<li>Generative models for Synthetic Data generation, including GANs, diffusion models and masked modeling,</li>
+<li>Methods for Data Imputation and Denoising,</li>
+<li>Transfer Learning and Transformer architectures for Time Series forecasting and classification (e.g., using FNN, CNN, Recurrent NN, LSTM),</li>
+<li>Graph Neural Networks for Anomaly Detection and Failure Prediction,</li>
+<li>Quantification of uncertainties,</li>
+<li>Use of Deep Neural Networks (e.g., FNN, CNN, Recurrent NN, LSTMs) for Time Series modeling and forecasting,</li>
+<li>Unsupervised and Self-Supervised Learning for different Time Series related tasks,</li>
+<li>Few-Shot Learning and Time Series Classification in a low-data regime,</li>
+<li>Physical-informed Deep Neural Networks for Time Series Forecasting,</li>
+<li>(Deep) Reservoir Computing and Spiking Neural Networks for Time Series and Structured data analysis,</li>
+<li>Representation Learning for Time Series.</li>
 </ul>
 </p>
 
+<p>
+This workshop will concentrate on three specific areas: A) generative models for time series, including GANs, diffusion models, and masked modeling, B) self-supervised learning for time series, and C) global models. This workshop focuses on these areas for the following reasons:
+<ul id="list">
+<li>A) <b>Generative models</b> for time series: Generative models enable the synthesis of new time series data, which can be employed to augment existing datasets, perform data imputation, or even simulate various scenarios. Developing more advanced generative models specific to time series can lead to a better understanding of underlying temporal patterns, which, in turn, can improve forecasting, anomaly detection, and decision-making in fields like finance, healthcare, and environmental science.</li>
+<li>B) <b>Self-supervised learning</b> for time series: In real-world situations, obtaining labeled data for time series can be challenging, time-consuming, and expensive. Self-supervised learning techniques can leverage the vast amounts of unlabeled data available to improve model performance without relying on manual annotation. By focusing on self-supervised learning methods for time series, researchers can develop more efficient and scalable models, ultimately leading to better insights and predictions even with limited labeled data.</li>
+<li>C) <b>Global models</b>: Traditional machine learning models may be trained on smaller, local datasets, which can limit their ability to generalize to new and diverse data. By training global models on large, centralized datasets from multiple sources, researchers can create more robust and accurate models. These global models can benefit from the diverse range of training data, leading to improved performance and better generalization capabilities. This is particularly important for time series analysis, as it enhances forecasting and decision-making across various domains. </li>
+</ul>
+</p>
+
+<p>
+Overall, generative models and global models are both promising areas for further research in time series analysis, and have the potential to significantly improve the accuracy and robustness of machine learning models for time series data.
+We encourage submissions that address these areas in the context of irregular time series.
+</p>
         </div>
       </div>
     </section><!-- End About Section -->
@@ -185,7 +208,6 @@ This workshop intends to offer the ideal context for dissemination and cross-pol
               <li>Per Gunnar Auran (Sintef DIGITAL)</li>
               <li>Jo Eidsvik (Norwegian University of Science and Technology)</li>
               <li>Leif Anders Thorsrud (BI)</li>
-              <li>Gard Spreeman (Telenor Research)</li>
               <li>Pablo Ortiz (Telenor Research)</li>
               <li>Vegard Larsen (BI / Norges Bank)</li>
               <li>Juan-Pablo Ortega (St. Gallen University, Switzerland)</li>
@@ -211,7 +233,7 @@ This workshop intends to offer the ideal context for dissemination and cross-pol
         <div class="row">
 
             <p>
-            Papers must be written in English and formatted according to the procedures outlined in the main conference <a href ="https://www.icmla-conference.org/icmla22/howtosubmit.html">here</a>. Regular and short papers presenting work completed or in progress are invited. <b>Regular papers</b> are expected to provide original and innovative contributions. Max length: 8 pages. <b>Short papers</b>, describing innovative ongoing research showing relevant preliminary results, are maximum 4 pages. <b>Presentation only</b>, work already published elsewhere, which is relevant and which may solicit fruitful discussion at the workshop (no page restrictions, any format, will not be included in the proceedings). Papers must be submitted in PDF format online via an <a href ="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICMLA2022">CMT3 interface</a>.
+            Papers must be written in English and formatted according to the procedures outlined in the main conference <a href ="https://2023.ecmlpkdd.org/submissions/research-and-ads-tracks/">here</a>. Regular and short papers presenting work completed or in progress are invited. <b>Regular papers</b> are expected to provide original and innovative contributions. Max length: 14 pages including references. <b>Short papers</b>, describing innovative ongoing research showing relevant preliminary results, are maximum 8 pages. <b>Presentation only</b>, work already published elsewhere, which is relevant and which may solicit fruitful discussion at the workshop (no page restrictions, any format, will not be included in the proceedings). Papers must be submitted in PDF format online via an <a href ="https://cmt3.research.microsoft.com/">CMT3 interface</a>, selecting one of the above options.
             </p>
             <p>
 Each submission will be evaluated based on relevance, significance of contribution, and quality by at least three program committee members. Regular and short submitted papers cannot be identical or substantially similar to versions currently under review at another conference, have been previously published, or have been accepted for publication. All accepted regular and short papers will be published according to the host conference’s procedures. Reviews are double-blind. At least one author of each accepted paper must attend the workshop to present.
@@ -232,11 +254,12 @@ Each submission will be evaluated based on relevance, significance of contributi
 
         <div class="row">
           <p>
+            The following deadlines are in AoE time zone (UTC – 12).
             <ul id="list">
-              <li>Paper submission deadline: <i><b>September 9, 2022</b></i></li>
-              <li>Acceptance notification: <i><b>October 7, 2022</b></i> </li>
-              <li>Camera ready deadline: <i><b>October 14, 2022</b></i> </li>
-              <li>Workshop date and location: <i><b>December 12-15, 2022, Nassau Bahamas</b></i></li>
+              <li>Paper submission deadline: <i><b>June 12, 2023</b></i></li>
+              <li>Acceptance notification: <i><b>July 12, 2023</b></i> </li>
+              <li>Camera ready deadline: <i><b>July 19, 2023</b></i> </li>
+              <li>Workshop date and location: <i><b>September 18-22, 2023, Torino, Italy</b></i></li>
             </ul>
           </p>
         </div>
@@ -563,7 +586,7 @@ Each submission will be evaluated based on relevance, significance of contributi
 
         <div class="section-header">
           <h2>Contact Us</h2>
-          <p><a href="mailto:erlend.aune@ntnu.no">erlend.aune@ntnu.no</a></p>
+          <p><a href="mailto:massimiliano.ruocco@sintef.no">massimiliano.ruocco@sintef.no</a></p>
         </div>
 
 
